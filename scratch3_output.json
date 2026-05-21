@@ -1,0 +1,45 @@
+{
+  "buttons": [
+    {
+      "text": "",
+      "class": "inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 w-9 absolute top-1 right-1 rounded-full"
+    },
+    {
+      "text": "R$ 10",
+      "class": "px-2 sm:px-3 py-2 text-xs sm:text-sm rounded-lg border transition-colors text-center font-medium min-h-[40px] flex items-center justify-center tabular-nums truncate bg-[#fd451c] text-white border-[#fd451c]"
+    },
+    {
+      "text": "R$ 20",
+      "class": "px-2 sm:px-3 py-2 text-xs sm:text-sm rounded-lg border transition-colors text-center font-medium min-h-[40px] flex items-center justify-center tabular-nums truncate bg-background text-foreground border-border hover:bg-muted"
+    },
+    {
+      "text": "R$ 50",
+      "class": "px-2 sm:px-3 py-2 text-xs sm:text-sm rounded-lg border transition-colors text-center font-medium min-h-[40px] flex items-center justify-center tabular-nums truncate bg-background text-foreground border-border hover:bg-muted"
+    },
+    {
+      "text": "R$ 100",
+      "class": "px-2 sm:px-3 py-2 text-xs sm:text-sm rounded-lg border transition-colors text-center font-medium min-h-[40px] flex items-center justify-center tabular-nums truncate bg-background text-foreground border-border hover:bg-muted"
+    },
+    {
+      "text": "CONTINUAR",
+      "class": "inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow h-9 px-4 py-2 mt-3 w-full rounded-lg hover:bg-secondary"
+    },
+    {
+      "text": "",
+      "class": "fixed bottom-4 right-4 z-[999] flex items-center justify-center h-10 w-10 rounded-full bg-primary text-white shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200"
+    },
+    {
+      "text": "",
+      "class": "woot-widget-bubble woot-elements--right"
+    },
+    {
+      "text": "",
+      "class": "woot-elements--right woot-widget-bubble woot--close woot--hide"
+    }
+  ],
+  "headings": [
+    "anjelinobr",
+    "Ou insira abaixo o valor que você deseja doar:",
+    "Ao utilizar nossos serviços, você concorda com nossos Termos de Uso e Política de Privacidade."
+  ]
+}
