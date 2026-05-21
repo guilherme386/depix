@@ -1,0 +1,158 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  margin-bottom: 2.5rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  background: linear-gradient(to right, #60a5fa, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+
+.logo-icon {
+  margin-bottom: 1rem;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.payment-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.qr-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.qr-container img {
+  width: 220px;
+  height: 220px;
+  display: block;
+}
+
+.copy-paste-section {
+  width: 100%;
+  text-align: left;
+}
+
+.copy-paste-section label {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.copy-box {
+  display: flex;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.copy-box code {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 0.8rem;
+  color: #e2e8f0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.copy-box button {
+  background: #3b82f6;
+  border: none;
+  color: white;
+  padding: 0 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.copy-box button:hover {
+  background: #2563eb;
+}
+
+.success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.success-message h2 {
+  color: #10b981;
+  margin: 0;
+}
+
+.timer-display {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.timer-display span {
+  color: #f87171;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.expired-notice {
+  padding: 2rem;
+  text-align: center;
+}
+
+.expired-notice p {
+  color: #f87171;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.text-button {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  color: #475569;
+  font-size: 0.8rem;
+}
