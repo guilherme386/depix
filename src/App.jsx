@@ -45,7 +45,7 @@ function App() {
     setLoading(true)
     setTimeLeft(900) // Reset timer
     try {
-      const response = await axios.post('http://localhost:3001/api/pix/create', formData)
+      const response = await axios.post('/api/pix/create', formData)
       setPayment(response.data)
       setPolling(true)
     } catch (error) {
@@ -63,7 +63,7 @@ function App() {
     if (polling && payment?.id) {
       interval = setInterval(async () => {
         try {
-          const response = await axios.get(`http://localhost:3001/api/pix/status/${payment.id}`)
+          const response = await axios.get(`/api/pix/status/${payment.id}`)
           if (response.data.status === 'PAID') {
             setPayment(prev => ({ ...prev, status: 'PAID' }))
             setPolling(false)
