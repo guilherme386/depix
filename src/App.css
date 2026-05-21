@@ -13,14 +13,12 @@ header {
 header h1 {
   font-size: 2.5rem;
   margin: 0.5rem 0;
-  background: linear-gradient(to right, #60a5fa, #a855f7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ffffff;
   font-weight: 800;
 }
 
 .subtitle {
-  color: #94a3b8;
+  color: #a3a3a3;
   font-size: 1.1rem;
 }
 
@@ -71,8 +69,8 @@ header h1 {
 
 .copy-box {
   display: flex;
-  background: rgba(15, 23, 42, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #000000;
+  border: 1px solid #333333;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -88,9 +86,9 @@ header h1 {
 }
 
 .copy-box button {
-  background: #3b82f6;
+  background: #ffffff;
   border: none;
-  color: white;
+  color: #000000;
   padding: 0 1rem;
   font-weight: 600;
   cursor: pointer;
@@ -98,7 +96,7 @@ header h1 {
 }
 
 .copy-box button:hover {
-  background: #2563eb;
+  background: #e5e5e5;
 }
 
 .success-message {
@@ -109,7 +107,7 @@ header h1 {
 }
 
 .success-message h2 {
-  color: #10b981;
+  color: #ffffff;
   margin: 0;
 }
 
@@ -120,7 +118,7 @@ header h1 {
 }
 
 .timer-display span {
-  color: #f87171;
+  color: #ffffff;
   font-weight: 700;
   font-family: monospace;
 }
@@ -131,7 +129,7 @@ header h1 {
 }
 
 .expired-notice p {
-  color: #f87171;
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
@@ -144,7 +142,7 @@ header h1 {
 .text-button {
   background: none;
   border: none;
-  color: #94a3b8;
+  color: #a3a3a3;
   cursor: pointer;
   font-size: 0.9rem;
   text-decoration: underline;
@@ -153,6 +151,6 @@ header h1 {
 
 footer {
   margin-top: 3rem;
-  color: #475569;
+  color: #666666;
   font-size: 0.8rem;
 }

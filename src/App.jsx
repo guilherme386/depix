@@ -86,7 +86,7 @@ function App() {
       >
         <header>
           <div className="logo-icon">
-            <QrCode size={40} color="#3b82f6" />
+            <QrCode size={40} color="#ffffff" />
           </div>
           <h1>Pix Direct</h1>
           <p className="subtitle">Pagamento para anjelinobr</p>
@@ -162,7 +162,7 @@ function App() {
             >
               {payment.status === 'PAID' ? (
                 <div className="success-message">
-                  <CheckCircle2 size={64} color="#10b981" />
+                  <CheckCircle2 size={64} color="#ffffff" />
                   <h2>Pagamento Confirmado!</h2>
                   <p>Obrigado pelo seu Pix, {formData.name}.</p>
                   <button className="primary" onClick={() => setPayment(null)}>Novo Pix</button>
